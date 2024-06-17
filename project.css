@@ -1,5 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+* {
+  font-family: 'Common Pixel', sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   height: 100vh;
   width: 100vw;
@@ -53,6 +58,7 @@ body {
   top: 20%;
   box-shadow: 5px 5px #000;
   border: solid 2px #000;
+  outline: none;
 }
 
 .cancel-btn {
@@ -99,3 +105,4 @@ footer {
   margin: 0;
   padding-top: 25px;
 }
+
